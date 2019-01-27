@@ -121,7 +121,7 @@
 
 .bio-img-2 {
 	border: 2px solid black;
-	width: 90%;
+	width: 70%;
 }
 
 .art-img {
@@ -228,7 +228,6 @@
 .sidebar {
 	border: 3px solid black;
 	background: linear-gradient(to top left, #aa8888ff 0%, #f0d9f1 100%);
-	max-height: 65vh;
 	padding-bottom: 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -554,7 +553,6 @@ td {
 		margin: 0;
 	}
 	.sidebar {
-		position: fixed;
 		width: 14.5vw;
 		padding-bottom: 20px;
 		top: 31.3vh;
@@ -729,6 +727,13 @@ td {
 	}
 	.art-italic-para {
 		font-size: 16px;
+	}
+}
+
+@media screen and (min-height: 760px) {
+	.sidebar {
+		max-height: 65vh;
+		position: fixed;
 	}
 }
 
