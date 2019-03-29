@@ -322,6 +322,13 @@
 	font-weight: bold;
 }
 
+.text-plaque-5 {
+	border: 5px double #100033FF;
+	border-radius: 20px;
+	background: linear-gradient(to top left, #aa8888ff 0%, #f0d9f1 100%);
+	padding: 10px 25px 20px 25px;
+}
+
 .plaque-1 {
 	border: 5px double #100033FF;
 	background: linear-gradient(to top left, #aa8888ff 0%, #f0d9f1 100%);
@@ -553,6 +560,7 @@ th, td {
 
 td {
 	padding-left: 16px;
+	font-size: 16px;
 }
 
 @media screen and (min-width: 720px) {
