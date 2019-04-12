@@ -152,6 +152,13 @@
 	width: 70%;
 }
 
+.banner-img {
+	display: block;
+	margin: 0 10% 0 20%;
+	height: 100%;
+	max-width: 100%;
+}
+
 .title {
 	font-style: italic;
 	font-weight: bold;
@@ -541,6 +548,10 @@ a:hover {
 .btn-sub {
 	white-space: normal;
 	font-size: 10px;
+}
+
+.color1 {
+	color: #591126FF;
 }
 
 .address {
