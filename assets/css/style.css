@@ -152,6 +152,13 @@
 	width: 70%;
 }
 
+.choose-img {
+	display: block;
+	margin: 6px 20px 0 0;
+	width: 35%;
+	float: left;
+}
+
 .banner-img {
 	display: block;
 	margin: 0 10% 0 20%;
@@ -554,24 +561,56 @@ a:hover {
 	color: #591126FF;
 }
 
+.color2 {
+	color: green;
+}
+
+.color3 {
+	color: red;
+}
+
+.color4 {
+	color: yellow;
+}
+
+.color5 {
+	color: blue;
+}
+
 .address {
 	font-weight: bold;
 	font-size: 12px;
 }
 
-table {
+.table-1 {
 	text-align: left;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
-th, td {
+.table-1 th, td {
 	border-bottom: 1px solid darkgrey;
 }
 
-td {
+.table-1 td {
 	padding-left: 16px;
 	font-size: 16px;
+}
+
+.table-2 {
+	border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.table-2 td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+.table-2 tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 @media screen and (min-width: 720px) {
@@ -655,11 +694,11 @@ td {
 	.plaque-listing-3 {
 		font-size: 12px;
 	}
-	table {
+	.table-1 {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	td {
+	.table-1 td {
 		padding-left: 20px;
 	}
 	.art-para {
@@ -752,11 +791,11 @@ td {
 	.plaque-listing-3 {
 		font-size: 14px;
 	}
-	table {
+	.table-1 {
 		margin-left: 40px;
 		margin-right: 40px;
 	}
-	td {
+	.table-1 td {
 		padding-left: 50px;
 	}
 	.art-para {
