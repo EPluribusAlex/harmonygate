@@ -9,6 +9,7 @@ $(document).ready(function() {
 
       if($(window).scrollTop() >= target - 500 && fade) {
       	fade = false;
+        $("#triggerModal").click();
         $(".main-row").animate({"opacity": 1}, 300);
         $(".plaque-6").animate({"opacity": 0}, 300);
         $(".jumbotron").animate({"opacity": 0}, 300);
